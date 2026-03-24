@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento. Indica al navegador que usara HTML5 -->
+<html lang="es">
+<!--Elemento principal del documento HTML.
+    lang="es" indica que el documento esta en "español"-->
+
+<head><!--seccion de configuracion del documento-->
+    <meta charset="UTF-8">
+    <!--Define la codificacion de caracteres
+UTF-8 permite usar correctamente tildes, ñ, simbolos, etc -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio sea responsive.
+ permite que el diseño se adapte correctamente a celulares y tablets-->
+    <tittle>practicando HTML - img y video </tittle>
+    <!--Titulo que aparece en el navegador-->
+    <meta name="author" content="Alan Sepulveda">
+    <!--indica quien creo el sitio web-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--Conexion con hoja CSS de estilos-->
+
+<body>
+    <header> <!--Encabezado del documento-->
+        <h1>Sitio multimedio personal</h1>
+    </header>
+    <hr> <!--Crea una linea de division-->
+    <main> <!--seccion principal del documento-->
+        <h2>Mis datos:</h2>
+        <p>Nombre: Alan Sepulveda<br> <!--br es un salto de linea-->
+            Curso: 3°C
+        </p>
+        <hr>
+        <h2>Galeria multimedia</h2>
+        <p>Imagen de ejemplo</p>
+        <img src="static/images/imagen1.png" alt="primera imagen" width="200">
+        <img src="static/images/imagen2.png" alt="segunda imagen" width="300">
+        <img src="static/images/imagen3.png" alt="tercera imagen" width="200">
+        <hr>
+        <h2>videos</h2>
+        <video width="400" controls>
+            <source src="static/videos/video1.mp4" type="video/mp4">
+        </video>
+        <video width="400" controls>
+            <source src="static/videos/video2.mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</head>
+
+</html>

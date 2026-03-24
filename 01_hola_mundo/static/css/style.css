@@ -1,0 +1,12 @@
+/*esto e un comentario*/
+
+header {text-align: center;
+    background-color: black;}
+    header:hover{background-color:coral;}
+main{background-color: crimson;}
+main:hover{background-color:blueviolet;}
+footer{background-color: firebrick;}
+footer:hover{background-color: burlywood;}
+h1 {color:aqua}
+h2{color:aquamarine}
+p{color:blue}
